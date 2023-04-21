@@ -8,7 +8,7 @@ public class jdbc{
     public static void main(String[] args) {
         Connection conn = null;
         try {
-            String url = "jdbc:sqlite:C:/Users/Pavan_B/Downloads/General/SQLiteDatabaseBrowserPortable/chatbot.db";
+            String url = "jdbc:sqlite:C:/Users/Nivedhitha_G/Downloads/General/SQLiteDatabaseBrowserPortable/chatbot.db";
             conn = DriverManager.getConnection(url);
 
             Statement stmt = null;
